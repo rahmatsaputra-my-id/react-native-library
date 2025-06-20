@@ -1,1 +1,1 @@
-export { LoadingIndicator } from './LoadingIndicator.component';
+export { default as LoadingIndicator } from './LoadingIndicator.component';

@@ -1,12 +1,10 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-library';
-
-const result = multiply(3, 7);
+import { View, StyleSheet } from 'react-native';
+import { StarRating } from 'react-native-library';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <StarRating rating={4} onRate={(val) => console.log(val)} />
     </View>
   );
 }

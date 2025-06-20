@@ -11,4 +11,4 @@ const LoadingIndicator: React.FC = () => (
   </Modal>
 );
 
-export { LoadingIndicator };
+export default LoadingIndicator;
