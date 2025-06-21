@@ -19,9 +19,12 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
-      - run: yarn install --immutable
-      - run: yarn build || true # or yarn prepare
+        run: yarn install --immutable
 
-      - run: npx release-it --ci
+      - name: Build package
+        run: yarn build || true # atau yarn prepare
+
+      - name: Release with release-it
+        run: npx release-it --ci
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
