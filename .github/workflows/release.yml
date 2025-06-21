@@ -23,7 +23,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
-        run: yarn install
+        run: yarn install --imutable
 
       - name: Configure git user
         run: |
@@ -31,7 +31,7 @@ jobs:
           git config --global user.email "rahmatsaputra@users.noreply.github.com"
 
       - name: Build package
-        run: yarn build || true # atau yarn prepare
+        run: yarn build || yarn prepare || true # atau yarn prepare
 
       - name: Release with release-it
         run: npx release-it --ci
