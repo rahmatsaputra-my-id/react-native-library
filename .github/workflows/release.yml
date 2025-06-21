@@ -21,6 +21,11 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Configure git user
+        run: |
+          git config --global user.name "rahmatsaputra"
+          git config --global user.email "rahmatsaputra@users.noreply.github.com"
+
       - name: Build package
         run: yarn build || true # atau yarn prepare
 
