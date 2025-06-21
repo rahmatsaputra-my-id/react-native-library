@@ -19,7 +19,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: yarn install
 
       - name: Build package
         run: yarn build || true # atau yarn prepare
