@@ -1,6 +1,6 @@
 {
   "name": "@rahmatsaputra-my-id/react-native-library",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Reusable and customizable React Native components and utilities to speed up mobile app development.This library aims to provide a collection of well-documented, lightweight, and easy-to-integrate components written in TypeScript, following best practices in design and performance.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
