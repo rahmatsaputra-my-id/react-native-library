@@ -119,8 +119,7 @@
     },
     "npm": {
       "publish": true,
-      "commit": true,
-      "tag": true
+      "commit": true
     },
     "github": {
       "release": true
