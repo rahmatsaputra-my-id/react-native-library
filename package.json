@@ -190,7 +190,7 @@
   "codegenConfig": {
     "name": "RNLibrarySpec",
     "type": "modules",
-    "jsModulePath": "src/index", 
+    "jsModulePath": "src/index",
     "android": {
       "javaPackageName": "com.library",
       "cmake": true
