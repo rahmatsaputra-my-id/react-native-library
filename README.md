@@ -3,15 +3,21 @@
 Reusable and customizable React Native components and utilities to accelerate mobile app development.  
 This library provides well-documented, lightweight, and easy-to-integrate components written in TypeScript — following best practices in design and performance.
 
+# React Native Library
+
+![npm version](https://img.shields.io/npm/v/@rahmatsaputra-my-id/react-native-library)
+![npm downloads](https://img.shields.io/npm/dm/@rahmatsaputra-my-id/react-native-library)
+![MIT License](https://img.shields.io/npm/l/@rahmatsaputra-my-id/react-native-library)
+
 ## 🚀 Features
 
-- ⚛️ Built with **React Native**
-- 📦 Ready-to-use **UI components**
-- 🎨 Customizable **style system**
-- 🧪 Fully typed with **TypeScript**
-- 🚀 Easy integration into any React Native project
+- ⚛️ **Built for React Native**
+- 🎨 Customizable & reusable UI components
+- 💎 Minimal dependencies, lightweight
+- 🧠 Written in **TypeScript** with full typings
+- 🔌 Easy integration into any React Native project
 
-## 🛠️ Development Setup
+## 🛠️ Installation
 
 ```bash
 npm install @rahmatsaputra-my-id/react-native-library
@@ -28,13 +34,13 @@ yarn add @rahmatsaputra-my-id/react-native-library
 ```js
 import { StarRating } from '@rahmatsaputra-my-id/react-native-library';
 
-const renderComponent = () => (
+const App = () => (
   <>
     <StarRating rating={3} onRate={(value) => console.log(value)} />
   </>
 );
 
-export default renderComponent;
+export default App;
 ```
 
 ### Loading Indicator
@@ -42,24 +48,24 @@ export default renderComponent;
 ```js
 import { LoadingIndicator } from '@rahmatsaputra-my-id/react-native-library';
 
-const renderComponent = () => (
+const App = () => (
   <>
     <LoadingIndicator />
   </>
 );
 
-export default renderComponent;
+export default App;
 ```
 
 ## 🤝 Contributing
 
-Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/rahmatsaputra-my-id/react-native-library/issues).
 
 ## 📄 License
 
-React is [MIT licensed](https://github.com/facebook/react/blob/main/LICENSE).
+This project is licensed under the [MIT licensed](https://github.com/facebook/react/blob/main/LICENSE).
 
 ## 🔗 Links
 
 - [🔗 Website Builder](https://rahmatsaputra.my.id)
-- [🐛 Report Issues](https://github.com/rahmatsaputra-my-id/react-native-library/issues)

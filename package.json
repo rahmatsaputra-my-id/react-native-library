@@ -49,7 +49,10 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "ui-kit",
+    "react-native-library",
+    "component"
   ],
   "repository": {
     "type": "git",
