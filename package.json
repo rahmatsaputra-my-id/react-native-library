@@ -185,6 +185,15 @@
           "esm": true
         }
       ]
+    ],
+    "targets_backup_with_codegen": [
+      "codegen",
+      ["commonjs", { "esm": true }],
+      ["module", { "esm": true }],
+      ["typescript", {
+        "project": "tsconfig.build.json",
+        "esm": true
+      }]
     ]
   },
   "codegenConfig": {
