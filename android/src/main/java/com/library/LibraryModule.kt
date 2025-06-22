@@ -9,7 +9,7 @@ class LibraryModule(reactContext: ReactApplicationContext) :
   ReactContextBaseJavaModule(reactContext) {
 
   companion object {
-    const val NAME = "LibraryModule"
+    const val NAME = "RNLibrary"
   }
 
   override fun getName(): String {
