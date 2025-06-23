@@ -214,11 +214,7 @@
   "codegenConfig": {
     "name": "RNLibrarySpec",
     "type": "modules",
-    "jsModulePath": "src/index",
-    "android": {
-      "javaPackageName": "com.library",
-      "cmake": true
-    }
+    "jsModulePath": "src/index"
   },
   "create-react-native-library": {
     "type": "turbo-module",
